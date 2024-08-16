@@ -1,0 +1,21 @@
+name: kaMod
+version: '${project.version}'
+main: me.superuser.kamod.KaMod
+api-version: '1.18'
+authors: [katre aka superuser]
+description: kaMod made by katre aka. superuser
+commands:
+  kamod:
+    description: Eklentiyi tamamen özelleştirin.
+    usage: /kamod <mute|ban|küfür>
+    permission: kamod.use
+permissions:
+  kamod.use:
+    description: /kamod komutunu kullanmanı sağlar.
+    default: op
+  kamod.mute:
+    description: /kamod mute komutunu kullanmanı sağlar.
+    default: op
+  kamod.ban:
+    description: /kamod ban komutunu kullanmanı sağlar.
+    default: op

@@ -1,0 +1,38 @@
+options:
+  messages:
+    reload: "&aEklenti yenilendi."
+    ban-message: "Banlandın!"
+    mute:
+      muted: "&6Susturulduğun için konuşamazsın."
+      bannedWordMute: "&6Küfürlü konuşmandan dolayı susturuldun."
+      mute: "&2&l%player% &atarafından, &2&l%reason% &asebebinden dolayı, &2&l%time% &aboyunca susturuldun."
+      staffMute: "&2&l%player% &aadlı oyuncuyu &2&l%time% &aboyunca, &2&l%reason% &asebebi ile susturdun."
+      playerNotFound: "&aOyuncu bulunamadı."
+      lifted: "&aSusturulman bitti artık konuşabilirsin."
+      announceMute: "&eBir oyuncu kurallara uymadığı için cezalandırıldı!\n\n&2Sebep: &a%reason%\n&2Susturulan: &a%player%\n&2Susturan: &a%staff%"
+      remainingTime: "&6Susturulduğun için konuşamazsın. Kalan süre: &e%time%&6, Sebep: &e%reason%."
+      isNotMuted: "&e%player% &6adlı oyuncu zaten susturulmamış."
+      unMuted: "&e%player% &6adlı oyuncunun susturulması kaldırıldı."
+
+    wordsManage:
+      added: "&2&l%word% &akelimesi başarılı bir şekilde karalisteye eklendi."
+      removed: "&2&l%word% &akelimesi başarılı bir şekilde karalisteden çıkarıldı."
+      notHas: "&2&l%word% &akelimesi zaten karalistede yok."
+    slangManage:
+      added: "&2&l%word% &akelimesi başarılı bir şekilde argo listesine eklendi."
+      removed: "&2&l%word% &akelimesi başarılı bir şekilde argo listesinden çıkarıldı."
+      notHas: "&2&l%word% &akelimesi zaten argo listesinde yok."
+
+    usage:
+      empty: "&2Doğru kullanım: &a/kamod <mute|unmute|ban|küfür|argo>"
+      mute: "&2Doğru kullanım: &a/kamod mute <oyuncu> <zaman> <sebep>"
+      unmute: "&2Doğru kullanım: &a/kamod unmute <oyuncu>"
+      wordsManage: "&2Doğru kullanım: &a/kamod küfür <ekle|çıkar> <kelime>"
+      slangManage: "&2Doğru kullanım: &a/kamod argo <ekle|çıkar> <kelime>"
+
+  time:
+    slangWordsTime: 300 #saniye cinsinden
+    bannedWordsTime: 3000 #saniye cinsinden
+
+
+
